@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+#BoardList {
+	width:470px;
+	margin:30px auto;
+	text-align:left;
+}
+
+#BoardList_Title {
+	width:444px;   /* 570px - (padding-left+border:3px+border:3px) */
+	padding-left:20px;
+	height:40px;
+	border:3px solid #D6D4A6;
+	text-align:center;
+	font-weight: bold;
+	line-height:40px;
+	font-size:10pt;
+	margin-bottom:30px;
+}
+
+#BoardList_header {
+	height:27px;
+}
+
+#BoardList_header #rightHeader{
+	float:right;
+	width:345px;
+	text-align:right;
+}
+
+#BoardList_header .selectFiled {border:1px solid; border-color:#666666; background-color:#ffffff; font-family:굴림; font-size:9pt;}
+#BoardList_header .textFiled {border:1px solid; height:13px; padding:2px 2px 2px 2px; border-color:#666666; background-color:#ffffff; font-family:"굴림"; font-size:9pt;}
+
+#BoardList_List {
+	clear:both;
+}
+
+#BoardList_List dd {
+	float:left;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+}
+
+#BoardList_List #title {
+	height:30px;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	background-color: #E6E4E6;
+}
+
+#BoardList_List #title dl {
+	height:27px;
+	border-left:0px solid #5db062;
+	border-right:0px solid #5db062;
+}
+
+#BoardList_List #title dt {
+	float:left;
+	line-height:34px;
+	text-align:center;
+}
+
+#BoardList_List .id {width:50px;}
+#BoardList_List .subject {width:420px;}
+
+#BoardList_List #Lists {
+	clear:both;
+}
+
+#BoardList_List #Lists dl {
+	float:left;
+	border-bottom:1px solid #E4E4E4;
+}
+
+#BoardList_List dd.subject {
+	width:420px;
+	text-align:center;
+}
+#BoardList_List a {
+	line-height: 27px;
+}
+
+#BoardList_List #footer {
+	clear:both;
+	height:32px;
+	line-height:32px;
+	margin-top:5px;
+	text-align:center;
+}
